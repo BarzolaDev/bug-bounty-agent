@@ -33,7 +33,7 @@ def escanear_repo(path):
     
     for root, dirs, files in os.walk(path):
         for file in files:
-            if file.endswith((".py", ".js", ".java", ".go")):
+            if file.endswith((".py", ".js", ".java", ".go", ".c", ".cpp", ".rb", ".php", ".ts")):
                 archivos.append(os.path.join(root, file))
 
     print(f"🔍 Escaneando {len(archivos)} archivos...\n")
