@@ -1,1 +1,1 @@
-Built to attack my own systems. Understanding the attack is how I built the defense.
+Tested against my own distributed-stock project — found hardcoded secrets and race conditions that I then fixed.
